@@ -1,0 +1,65 @@
+h1{
+  font-size: 45px;
+  font-family:'Courier New', Courier, monospace;
+  color: #3f3f3f;
+  font-weight: bold;
+  text-align: center;
+
+}
+body {
+  margin: 0;
+  font-family: 'Arial';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Arial;
+}
+
+.app {
+  background: #ffffff;
+  padding: 30px;
+  height: auto;
+  width: 700px;
+  margin: 0 auto;
+
+}
+
+.todo-list{
+  background: #c7c7c7;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.todo{
+  background: #ededed;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.input{
+  background: #ededed;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 30px;
+  font-style:oblique;
+}
+
+.trash{
+  height: 40px;
+  font-size: 35px;
+}
